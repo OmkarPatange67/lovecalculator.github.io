@@ -113,6 +113,10 @@ body{
 		}
 
 		@media (min-width: 376px) and (max-width: 425px){
+			
+			body{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)) ,url('Love_hands_2.png');
+		}
 			.card{
 				transform: scale(5);
 			}

@@ -113,9 +113,6 @@ body{
 		}
 
 		@media (min-width: 376px) and (max-width: 425px){
-			body{
-				height: 30vh !important;
-			}
 			.card{
 				transform: scale(5);
 			}

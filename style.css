@@ -71,10 +71,12 @@ body{
 		}
 		.card-body{
 			transform: scaleY(0);
+                        height:0%;
 			transition: .5s;
 		}
 		.card-header:hover, .card-header:focus > .card-body{
 			transform: scaleY(1);
+                        height:100%;
 		}
 		#tips{
 			background: transparent !important;

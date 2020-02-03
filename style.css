@@ -74,7 +74,7 @@ body{
                         height:0% !important;
 			transition: .5s;
 		}
-		.card-header:hover, .card-header:focus > .card-body{
+		.card-header:hover > .card-body{
 			transform: scaleY(1);
                         height:100%;
 		}

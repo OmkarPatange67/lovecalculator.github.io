@@ -44,7 +44,7 @@ body{
 			border: none !important;
 			width: 70%;
 		}
-		.card:hover, .card:focus{
+		.card:hover, .card:focus > .card{
 			background: rgba(0, 0, 0, 0.25);
 			padding: .6rem;
 			transform: scale(1);

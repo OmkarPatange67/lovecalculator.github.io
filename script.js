@@ -1,6 +1,4 @@
-<script>
-   		
-	function results(){
+   		function results(){
 		// var love_data = Math.random() * 100;
 		// love_data = Math.ceil(love_data);
 		var love_data = Math.ceil(Math.random() * 100 + 1);
@@ -32,5 +30,3 @@
 		}		
 
 	}
-
-   	</script>

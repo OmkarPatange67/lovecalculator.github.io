@@ -31,10 +31,10 @@ body{
 			transform: translate(-50%, -50%);
 			/* background-color: rgba(0, 0, 0, 0.5); */
 		}
-		/*.card{
+		.card{
 			
 			/* width: 70%; */
-		}*/
+		}
 		.set{
 			background: transparent;
 			color: white !important;

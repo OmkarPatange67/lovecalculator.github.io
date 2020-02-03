@@ -1,13 +1,9 @@
  @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-
-
-    body{
-
-    overflow-x: hidden;
+  body{
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962 !important;
   }
-
 body{
 			background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)) ,url('Love_hands_1.jpg');
 			background-size: cover;
@@ -27,7 +23,6 @@ body{
 			border: none !important;
 			background: transparent;
 		}
-
 		header{
 			width: 100%;
 			position: absolute;
@@ -36,7 +31,6 @@ body{
 			transform: translate(-50%, -50%);
 			/* background-color: rgba(0, 0, 0, 0.5); */
 		}
-
 		.card{
 			
 			/* width: 70%; */
@@ -48,48 +42,39 @@ body{
 			transform: scale(0.9);
 			border: none !important;
 			width: 70%;
-
 		}
-		.card:hover, .card:focus{
+		.card:hover{
 			background: rgba(0, 0, 0, 0.25);
 			padding: .6rem;
 			transform: scale(1);
 		}
-
 		.card:hover > .card-header{
 			background: linear-gradient(to top right, rgba(255, 0, 0, 0.5), rgba(255, 255, 255, 0.2));
 			color: white;
 			opacity: .75;
 		}
-
 		.card:hover > .card-footer{
 			background: linear-gradient(to top right, rgba(0, 255, 0, 0.5), rgba(255, 255, 255, 0.2));
 			opacity: .75;
 			color: white;
 		}
-
 		form{
 			width: 70%;
 			justify-content: center;
 			align-items: center;
 		}
-
 		input{
 			background: transparent;
 			color: black !important;
 			font-weight: bold;
 		}
-
 		.card-body{
 			transform: scaleY(0);
 			transition: .5s;
 		}
-
 		.card:hover > .card-body{
 			transform: scaleY(1);
-
 		}
-
 		#tips{
 			background: transparent !important;
 			border: none;
@@ -97,19 +82,15 @@ body{
 			color: white !important;
 			pointer-events: none;
 		}
-
 		@media (min-width: 769px) and (max-width: 1024px){
 			form{
 				width: 100%;
 			}
 		}
-
 		@media (min-width: 426px) and (max-width: 768px){
-
 			header{
 				width: 150% !important;
 			}
-
 		}
 
 		@media (min-width: 376px) and (max-width: 425px){
@@ -123,8 +104,7 @@ body{
 			header{
 				width: 150% !important;
 			}
-
 			.set{
 				width: 90% !important;
 			}
-		}
+}

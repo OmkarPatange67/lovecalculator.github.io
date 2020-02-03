@@ -70,10 +70,10 @@ body{
 			font-weight: bold;
 		}
 		.card-body{
-			transform: scaleY(1);
+			transform: scaleY(0);
 			transition: .5s;
 		}
-		.card:hover, .card:focus > .card-body{
+		.card-header:hover, .card-header:focus > .card-body{
 			transform: scaleY(1);
 		}
 		#tips{

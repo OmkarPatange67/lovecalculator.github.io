@@ -71,7 +71,7 @@ body{
 		}
 		.card-body{
 			transform: scaleY(1);
-                        height:0% !important;
+                        
 			transition: .5s;
 		}
 		.card-header:hover > .card-body{
